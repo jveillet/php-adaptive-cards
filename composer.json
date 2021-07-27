@@ -1,0 +1,36 @@
+{
+	"name": "jveillet/php-adaptive-cards",
+	"description": "A Simple PHP package for Microsoft's Adaptive Cards.",
+	"keywords": [
+		"microsoft",
+		"adaptive cards",
+		"adaptivecardsio"
+	],
+	"homepage": "https://github.com.org/jveillet/php-adaptive-cards",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jérémie Veillet",
+			"email": "jveillet@hey.com"
+		}
+	],
+	"autoload": {
+		"psr-12": {
+			"AdaptiveCards\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-12": {
+			"AdaptiveCards\\Tests\\": "tests/"
+		}
+	},
+	"require": {
+		"php": ">= 7.0"
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "@stable",
+		"phpunit/phpunit": "@stable"
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true
+}
